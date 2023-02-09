@@ -6,6 +6,7 @@ if (storedCount !== null) {
     count = Number(storedCount)
 }
 
+
 let counterText = document.getElementById("counter-text")
 counterText.innerText = count
 
