@@ -1,7 +1,5 @@
 let storedCount = localStorage.getItem("count")
 
-console.log(storedCount)
-
 let count = 0;
 
 if (storedCount !== null) {
